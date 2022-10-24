@@ -9,19 +9,19 @@ const prompt = require('prompt-sync')();
 let priceV2 = prompt("Enter your price:");
 if (priceV2 == 10) {
     console.log("Pay full price, please");
-}
+    }
 else {
     console.log("Pay 8 euro, please");
     }
  
 // Maximum of three numbers
 function maxNumber (x, y, z) {
-if (x > y && x > z) {
+   if (x > y && x > z) {
     console.log("Max is:",x,);
-}
+    }
 else if (y > x && y > z) {
     console.log("Max is:",y,);
-}
+    }
 else {
     console.log("Max is:" ,z,);
 }
@@ -38,14 +38,14 @@ let c = Math.round(Math.random() * (maximum-minimum) + minimum);
 console.log(a, b, c);
 function identValue () {
     if (a === b && a === c) {
-console.log("Identical value = 3");
-}
+       console.log("Identical value = 3");
+       }
 else if (a === b || a === c) {
     console.log("Identical value = 2");
- }
+       }
  else {
     console.log("Identical value = 0");
- }
+       }
 }
 identValue(a, b, c);
 
@@ -53,9 +53,9 @@ identValue(a, b, c);
 let daysOfTheWeek = ["Zero-day", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 let dayNum = prompt("Enter the number of the day:");
 function day() {
-var day = daysOfTheWeek[dayNum];
-console.log(day);
-}
+     var day = daysOfTheWeek[dayNum];
+     console.log(day);
+   }
 day();
 
 var day2 = prompt("Enter the number of the day:");
