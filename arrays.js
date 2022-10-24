@@ -1,10 +1,10 @@
 // Print everything in an array
 let numbers = ["abc", "def", "ghi", "jkl", "mno"];
-console.log(numbers[2]);
-console.log(numbers);
+  console.log(numbers[2]);
+  console.log(numbers);
 let nums = new Array();
-nums = [5, 8, 9];
-console.log(nums[0]);
+  nums = [5, 8, 9];
+  console.log(nums[0]);
 
 // Maximum of integers
 let array = [4, 101, 89, 56, 90, 45, 0, -7];
@@ -22,13 +22,18 @@ let masyv2 = [21, 45, 19, 23, 24, 25, 26];
 mas = masyv2;
 a = 0;
 for (i=0; i<mas.length-1; i++) {
-if (mas[i] < mas[i+1]) {
-    a++;}
-else {a--;}
+    if (mas[i] < mas[i+1]) {
+       a++;
+    }
+else {
+    a--;
+  }
 }
-if (a === mas.length-1) {
-    console.log(true);
+    if (a === mas.length-1) {
+       console.log(true);
 }
-else {console.log(false);}
+else {
+    console.log(false);
+}
 
 
